@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GamerInside25 - Il tuo mondo videoludico</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0f0f0f;
+      color: #f0f0f0;
+    }
+    header {
+      background-color: #1a1a1a;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+      color: #00ff88;
+    }
+    header img {
+      width: 100px;
+      height: auto;
+      margin-bottom: 10px;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #121212;
+      padding: 10px 0;
+    }
+    nav a {
+      color: #ccc;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #00ff88;
+    }
+    section {
+      padding: 40px;
+      text-align: center;
+    }
+    .hero {
+      font-size: 1.4em;
+      max-width: 800px;
+      margin: auto;
+    }
+    .blog-post {
+      background-color: #1e1e1e;
+      border-radius: 10px;
+      padding: 20px;
+      margin: 20px auto;
+      max-width: 700px;
+      text-align: left;
+    }
+    footer {
+      background-color: #1a1a1a;
+      color: #888;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+    }
+    .logo {
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.1); }
+      100% { transform: scale(1); }
+    }
+    form {
+      background-color: #1e1e1e;
+      padding: 20px;
+      max-width: 600px;
+      margin: 0 auto;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+    input, textarea, button {
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      font-size: 1em;
+    }
+    button {
+      background-color: #00ff88;
+      color: #0f0f0f;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #00cc70;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Video-Game-Controller-Icon-IDV-green.svg/2048px-Video-Game-Controller-Icon-IDV-green.svg.png" alt="Logo GamerInside25" class="logo">
+    <h1>GamerInside25</h1>
+    <p>La community digitale dedicata ai giovani gamer</p>
+  </header>
+
+  <nav>
+    <a href="#chi-siamo">Chi siamo</a>
+    <a href="#blog">Blog</a>
+    <a href="#contatti">Contatti</a>
+    <a href="#newsletter">Newsletter</a>
+  </nav>
+
+  <section class="hero">
+    <h2>Benvenuto su GamerInside25</h2>
+    <p>Qui troverai notizie, guide, trucchi e uno spazio per condividere la tua passione per il gaming con altri ragazzi come te!</p>
+  </section>
+
+  <section id="chi-siamo">
+    <h2>Chi siamo</h2>
+    <p>Siamo un gruppo di appassionati di videogiochi, nati con il joypad in mano e cresciuti tra YouTube, Twitch e community online. Il nostro obiettivo? Aiutare altri giovani gamer a orientarsi nel mondo del digitale, del gaming e della creazione di contenuti.</p>
+  </section>
+
+  <section id="blog">
+    <h2>Ultimi articoli</h2>
+    <div class="blog-post">
+      <h3>🎮 5 giochi che devi assolutamente provare quest’anno</h3>
+      <p>Scopri quali titoli stanno facendo impazzire i giovani gamer italiani. Da titoli indie a grandi produzioni!</p>
+    </div>
+    <div class="blog-post">
+      <h3>📹 Come iniziare a streammare su Twitch in 3 passi</h3>
+      <p>Ti basta uno smartphone, una connessione e questi 3 semplici consigli per partire con la tua prima live.</p>
+    </div>
+    <div class="blog-post">
+      <h3>💡 Idee per creare contenuti se sei un gamer</h3>
+      <p>Dal gameplay alle reaction: ecco come distinguerti nel mondo dei contenuti digitali.</p>
+    </div>
+  </section>
+
+  <section id="contatti">
+    <h2>Contattaci</h2>
+    <p>Hai idee, domande o vuoi collaborare? Scrivici su <a href="mailto:gamerinside25@gmail.com">gamerinside25@gmail.com</a></p>
+  </section>
+
+  <section id="newsletter">
+    <h2>Iscriviti alla nostra newsletter</h2>
+    <p>Ricevi aggiornamenti, articoli esclusivi e novità dal mondo del gaming direttamente nella tua email.</p>
+    <form>
+      <input type="email" placeholder="La tua email" required />
+      <textarea placeholder="Lasciaci un messaggio (facoltativo)"></textarea>
+      <button type="submit">Iscriviti</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 GamerInside25 - Tutti i diritti riservati</p>
+  </footer>
+</body>
+</html>
